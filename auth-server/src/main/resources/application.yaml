@@ -3,8 +3,8 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/e_commerce_db
-    password: manager
+    url: jdbc:mysql://localhost:3306/online_shopping
+    password: root
     username: root
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect

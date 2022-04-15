@@ -1,4 +1,4 @@
-package com.sunbeam.encoder;
+package com.iacsd.encoder;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

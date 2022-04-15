@@ -1,4 +1,4 @@
-package com.sunbeam.config;
+package com.iacsd.config;
 
 import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.springframework.beans.factory.annotation.Autowired;

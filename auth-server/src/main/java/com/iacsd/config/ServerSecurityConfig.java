@@ -1,6 +1,5 @@
-package com.sunbeam.config;
+package com.iacsd.config;
 
-import com.sunbeam.services.MyUserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
@@ -16,6 +15,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler;
+
+import com.iacsd.services.MyUserDetailsServiceImpl;
 
 @Configuration
 @Order(SecurityProperties.BASIC_AUTH_ORDER)

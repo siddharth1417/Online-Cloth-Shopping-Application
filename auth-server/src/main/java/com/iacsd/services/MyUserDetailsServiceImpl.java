@@ -1,13 +1,14 @@
-package com.sunbeam.services;
+package com.iacsd.services;
 
-import com.sunbeam.entity.MyUser;
-import com.sunbeam.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import com.iacsd.entity.MyUser;
+import com.iacsd.repository.UserRepository;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,7 +1,8 @@
-package com.sunbeam.repository;
+package com.iacsd.repository;
 
-import com.sunbeam.entity.MyUser;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.iacsd.entity.MyUser;
 
 import java.util.Optional;
 

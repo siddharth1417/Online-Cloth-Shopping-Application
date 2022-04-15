@@ -1,4 +1,4 @@
-package com.sunbeam.entity;
+package com.iacsd.entity;
 
 import javax.persistence.*;
 
